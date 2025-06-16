@@ -1,5 +1,11 @@
 #contenedor{
-    width: 200px;
+    width: 150px;
     height: 150px;
-    background-color:#E0E0E0;
+    background-color:#D29BFD;
+    border:5px dotted #FFCBDB;
+    border-radius: 25% 25% 25% 25%;
+}
+
+#Tareas{
+    text-align-last: center;
 }
