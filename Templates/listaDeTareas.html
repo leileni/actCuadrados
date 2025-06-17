@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Statics/styles/listaDeTareas.css">
-    <title>Lista de Tareas</title>
+  <meta charset="UTF-8">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="../Statics/styles/listaDeTareas.css">
 </head>
 <body>
 
-    <h1>Lista de Tareas</h1>
-    <button id="agregarTareas">Agregar Tareas</button>
-    <button id="eliminarTareas"> Eliminar Tareas</button>
-    <br> 
-    <br>
-    <br>
-    <div 
-        id="contenedor">
-        <p id="Tareas"> Tarea</p>
-    
-    </div>
+  <h1>Lista de Tareas</h1>
+
+  <div class="botones">
+    <button id="agregarTarea">Agregar tarea</button>
+    <button id="eliminarUltima">Eliminar última tarea</button>
+    <button id="eliminarTodas">Eliminar todas</button>
+  </div>
+
+  <div id="contenedor"></div>
+
+  <script src="../Dynamics/JS/listaDeTareas.js"></script>
 </body>
-<sript src="../Dynamics/JS/listaDeTareas.js"></sript>
 </html>
